@@ -1,0 +1,50 @@
+.auth-block{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.auth-block h4{
+    text-align: center;
+}
+
+.auth-block form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-block form input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+.auth-block form button{
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    background: linear-gradient(#7690CF, #526ebe, #4a4eb1);
+    color: white;
+    border-radius: 5px;
+}
+
+.registration-btn{
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 550px){
+    .auth-block{
+        width: 100%;
+    }
+
+    .auth-block form input{
+        width: 100%;
+    }
+}
